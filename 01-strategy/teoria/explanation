@@ -1,0 +1,5 @@
+-- Strategy
+
+Utilizado quando temos algoritmos similares, porém, comportamentos distintos. Flexibilizando assim a inclusão de novos comportamentos (Estratégias). 
+
+É implementado geralmente com a utilização de Abstração (Interface), e classes concretas a qual cada uma possui um determinado comportamento.

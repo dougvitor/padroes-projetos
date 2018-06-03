@@ -1,0 +1,5 @@
+-- Chain Of Responsibility
+Utilizado quando temos uma sequencia de comandos a serem executados de acordo com um cenário em específico, e a cada cenário não atendido há sempre um próximo cenário a ser verificado.
+Em outras palavras, classe X não atende a uma condição, passa-se a responsabilidade para a classe Y, que caso também não atenda a condição passa-se para classe Z e assim sucessivamente.
+Implementado através de uma interface e suas classes concretas. Caso condição contida nessas classes não atenda a responsabilidade é passada para uma próxima classe. É opcional a criação de
+uma classe para definir a sequencia de classes a serem executadas, caso uma falhe a responsabilidade passa para outra.
